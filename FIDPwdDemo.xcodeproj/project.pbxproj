@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CF58D4BCE08F64DA76C7A5C /* libPods-FIDPwdDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC0E240563D0BAF9F75555E /* libPods-FIDPwdDemo.a */; };
+		9A6CE4541E5840C300162E5C /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6CE4531E5840C300162E5C /* image.xcassets */; };
 		9AC06C321E55EBAF000AEBFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC06C311E55EBAF000AEBFB /* main.m */; };
 		9AC06C351E55EBAF000AEBFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC06C341E55EBAF000AEBFB /* AppDelegate.m */; };
 		9AC06C381E55EBAF000AEBFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC06C371E55EBAF000AEBFB /* ViewController.m */; };
 		9AC06C3B1E55EBAF000AEBFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC06C391E55EBAF000AEBFB /* Main.storyboard */; };
-		9AC06C3D1E55EBAF000AEBFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC06C3C1E55EBAF000AEBFB /* Assets.xcassets */; };
 		9AC06C401E55EBAF000AEBFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC06C3E1E55EBAF000AEBFB /* LaunchScreen.storyboard */; };
 		9AC06C4B1E55EBAF000AEBFB /* FIDPwdDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC06C4A1E55EBAF000AEBFB /* FIDPwdDemoTests.m */; };
 		9AC06C561E55EBAF000AEBFB /* FIDPwdDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC06C551E55EBAF000AEBFB /* FIDPwdDemoUITests.m */; };
+		9AC06C771E55F89F000AEBFB /* Style1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC06C761E55F89F000AEBFB /* Style1ViewController.m */; };
+		9AC06C7A1E55F8B2000AEBFB /* Style2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC06C791E55F8B2000AEBFB /* Style2ViewController.m */; };
+		9AC06C7D1E55F8BD000AEBFB /* Style3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC06C7C1E55F8BD000AEBFB /* Style3ViewController.m */; };
+		9AC06C811E55FD8C000AEBFB /* FIDPwdCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC06C801E55FD8C000AEBFB /* FIDPwdCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CC0E240563D0BAF9F75555E /* libPods-FIDPwdDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FIDPwdDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D805A62B1A372FA55402B54 /* Pods-FIDPwdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIDPwdDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FIDPwdDemo/Pods-FIDPwdDemo.release.xcconfig"; sourceTree = "<group>"; };
+		685F63A82E9B695E73A19513 /* Pods-FIDPwdDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FIDPwdDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FIDPwdDemo/Pods-FIDPwdDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9A6CE4531E5840C300162E5C /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
 		9AC06C2D1E55EBAF000AEBFB /* FIDPwdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIDPwdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC06C311E55EBAF000AEBFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AC06C331E55EBAF000AEBFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,7 +51,6 @@
 		9AC06C361E55EBAF000AEBFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9AC06C371E55EBAF000AEBFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9AC06C3A1E55EBAF000AEBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9AC06C3C1E55EBAF000AEBFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AC06C3F1E55EBAF000AEBFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AC06C411E55EBAF000AEBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AC06C461E55EBAF000AEBFB /* FIDPwdDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIDPwdDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +59,14 @@
 		9AC06C511E55EBAF000AEBFB /* FIDPwdDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIDPwdDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AC06C551E55EBAF000AEBFB /* FIDPwdDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FIDPwdDemoUITests.m; sourceTree = "<group>"; };
 		9AC06C571E55EBAF000AEBFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC06C751E55F89F000AEBFB /* Style1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Style1ViewController.h; sourceTree = "<group>"; };
+		9AC06C761E55F89F000AEBFB /* Style1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Style1ViewController.m; sourceTree = "<group>"; };
+		9AC06C781E55F8B2000AEBFB /* Style2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Style2ViewController.h; sourceTree = "<group>"; };
+		9AC06C791E55F8B2000AEBFB /* Style2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Style2ViewController.m; sourceTree = "<group>"; };
+		9AC06C7B1E55F8BD000AEBFB /* Style3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Style3ViewController.h; sourceTree = "<group>"; };
+		9AC06C7C1E55F8BD000AEBFB /* Style3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Style3ViewController.m; sourceTree = "<group>"; };
+		9AC06C7E1E55FD82000AEBFB /* FIDPwdCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FIDPwdCollectionView.h; sourceTree = "<group>"; };
+		9AC06C801E55FD8C000AEBFB /* FIDPwdCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIDPwdCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF58D4BCE08F64DA76C7A5C /* libPods-FIDPwdDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36F577B9D02B23F76D289183 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CC0E240563D0BAF9F75555E /* libPods-FIDPwdDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63BD68BE4EBD187A7D6BB5AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				685F63A82E9B695E73A19513 /* Pods-FIDPwdDemo.debug.xcconfig */,
+				4D805A62B1A372FA55402B54 /* Pods-FIDPwdDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9AC06C241E55EBAF000AEBFB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				9AC06C491E55EBAF000AEBFB /* FIDPwdDemoTests */,
 				9AC06C541E55EBAF000AEBFB /* FIDPwdDemoUITests */,
 				9AC06C2E1E55EBAF000AEBFB /* Products */,
+				63BD68BE4EBD187A7D6BB5AA /* Pods */,
+				36F577B9D02B23F76D289183 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +137,20 @@
 		9AC06C2F1E55EBAF000AEBFB /* FIDPwdDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9AC06C7E1E55FD82000AEBFB /* FIDPwdCollectionView.h */,
+				9AC06C801E55FD8C000AEBFB /* FIDPwdCollectionView.m */,
 				9AC06C331E55EBAF000AEBFB /* AppDelegate.h */,
 				9AC06C341E55EBAF000AEBFB /* AppDelegate.m */,
 				9AC06C361E55EBAF000AEBFB /* ViewController.h */,
 				9AC06C371E55EBAF000AEBFB /* ViewController.m */,
+				9AC06C751E55F89F000AEBFB /* Style1ViewController.h */,
+				9AC06C761E55F89F000AEBFB /* Style1ViewController.m */,
+				9AC06C781E55F8B2000AEBFB /* Style2ViewController.h */,
+				9AC06C791E55F8B2000AEBFB /* Style2ViewController.m */,
+				9AC06C7B1E55F8BD000AEBFB /* Style3ViewController.h */,
+				9AC06C7C1E55F8BD000AEBFB /* Style3ViewController.m */,
+				9A6CE4531E5840C300162E5C /* image.xcassets */,
 				9AC06C391E55EBAF000AEBFB /* Main.storyboard */,
-				9AC06C3C1E55EBAF000AEBFB /* Assets.xcassets */,
 				9AC06C3E1E55EBAF000AEBFB /* LaunchScreen.storyboard */,
 				9AC06C411E55EBAF000AEBFB /* Info.plist */,
 				9AC06C301E55EBAF000AEBFB /* Supporting Files */,
@@ -147,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9AC06C5A1E55EBAF000AEBFB /* Build configuration list for PBXNativeTarget "FIDPwdDemo" */;
 			buildPhases = (
+				545300095638EB136721786F /* [CP] Check Pods Manifest.lock */,
 				9AC06C291E55EBAF000AEBFB /* Sources */,
 				9AC06C2A1E55EBAF000AEBFB /* Frameworks */,
 				9AC06C2B1E55EBAF000AEBFB /* Resources */,
+				C8F57CA5895848DC9BE8C2AF /* [CP] Embed Pods Frameworks */,
+				194D9F83CFC3D144D7C0B75E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,8 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A6CE4541E5840C300162E5C /* image.xcassets in Resources */,
 				9AC06C401E55EBAF000AEBFB /* LaunchScreen.storyboard in Resources */,
-				9AC06C3D1E55EBAF000AEBFB /* Assets.xcassets in Resources */,
 				9AC06C3B1E55EBAF000AEBFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,12 +318,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		194D9F83CFC3D144D7C0B75E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIDPwdDemo/Pods-FIDPwdDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		545300095638EB136721786F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8F57CA5895848DC9BE8C2AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FIDPwdDemo/Pods-FIDPwdDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9AC06C291E55EBAF000AEBFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC06C7D1E55F8BD000AEBFB /* Style3ViewController.m in Sources */,
 				9AC06C381E55EBAF000AEBFB /* ViewController.m in Sources */,
+				9AC06C7A1E55F8B2000AEBFB /* Style2ViewController.m in Sources */,
+				9AC06C771E55F89F000AEBFB /* Style1ViewController.m in Sources */,
+				9AC06C811E55FD8C000AEBFB /* FIDPwdCollectionView.m in Sources */,
 				9AC06C351E55EBAF000AEBFB /* AppDelegate.m in Sources */,
 				9AC06C321E55EBAF000AEBFB /* main.m in Sources */,
 			);
@@ -423,10 +522,13 @@
 		};
 		9AC06C5B1E55EBAF000AEBFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 685F63A82E9B695E73A19513 /* Pods-FIDPwdDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = J3BJ7G2PUN;
 				INFOPLIST_FILE = FIDPwdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Fidetro.FIDPwdDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,10 +537,13 @@
 		};
 		9AC06C5C1E55EBAF000AEBFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D805A62B1A372FA55402B54 /* Pods-FIDPwdDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = J3BJ7G2PUN;
 				INFOPLIST_FILE = FIDPwdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Fidetro.FIDPwdDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +619,7 @@
 				9AC06C5C1E55EBAF000AEBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AC06C5D1E55EBAF000AEBFB /* Build configuration list for PBXNativeTarget "FIDPwdDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +628,7 @@
 				9AC06C5F1E55EBAF000AEBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AC06C601E55EBAF000AEBFB /* Build configuration list for PBXNativeTarget "FIDPwdDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +637,7 @@
 				9AC06C621E55EBAF000AEBFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

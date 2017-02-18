@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Style1ViewController.h"
+#import "Style2ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
     return YES;
 }
 
