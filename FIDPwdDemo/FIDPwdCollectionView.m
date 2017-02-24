@@ -335,9 +335,12 @@
 - (NSString *)getPwdString{
     
     NSString *pwd = [NSString string];
-    for (FIDPwdView *pwdView in [self.textFieldDictonary allValues]) {
+    for (NSInteger i = 0; i<self.numberOfPwdView; i++) {
+        
+        FIDPwdView *pwdView = self.textFieldDictonary[[NSString stringWithFormat:@"%ld",i]];
         pwd = [NSString stringWithFormat:@"%@%@",pwd,pwdView.pwdTextField.text];
     }
+    
     return pwd;
     
 }
