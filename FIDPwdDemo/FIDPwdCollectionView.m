@@ -235,30 +235,38 @@
     
 }
 
-- (void)layoutSubviews{
+- (void)layoutIfNeeded{
     
-    [super layoutSubviews];
-    
+    [super layoutIfNeeded];
     for (FIDPwdView *pwdView in [self.textFieldDictonary allValues]) {
         
-        if (pwdView.pwdTextField.tag == 0 ) [pwdView.pwdTextField becomeFirstResponder];
+        if (pwdView.pwdTextField.tag == 0 ){
+            
+            [pwdView.pwdTextField becomeFirstResponder];
+            
+            break;
+        }
         
     }
     
+    
 }
-
 
 - (void)reloadPwd{
     
+    for (UIView *view in [self.textFieldDictonary allValues]) {
+        [view removeFromSuperview];
+    }
     self.textFieldDictonary = [NSMutableDictionary dictionary];
     
     [self reloadData];
-
+    
+    [self layoutIfNeeded];
     
     
-   
     
 }
+
 
 #pragma mark - --------------------------textField Delegate--------------------------
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string{
